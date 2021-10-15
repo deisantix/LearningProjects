@@ -1,31 +1,64 @@
-body {
-    margin: 0px
+/* GERAIS */
+header {
+    background-color: #8f8f8f;
+    padding: 20px 0;
 }
 
-#banner {
+.container {
+    position: relative;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
+
+/* home page */
+.banner {
+    display: block;
     width: 100%;
+    margin: 20px auto;
 }
 
 .principal {
     background: gainsboro;
-    padding: 30px;
-    margin: 0px;
+    padding: 10px;
 }
 
-.tituloPrincipal {
-    padding-left: 20px;
-}
-
-.tituloCentralizado {
+h2 {
     text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+
+    margin: 0 0 20px;
 }
 
-p {
+h3 {
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
 }
 
-#missao {
-    font-size: 20px
+main p {
+    text-align: justify;
+    font-size: 18px;
 }
 
 em strong {
@@ -33,22 +66,170 @@ em strong {
 }
 
 .beneficios {
-    background: #FFFFFF;
-    padding: 20px
+    margin: 20px 0;
 }
 
-ul {
+.beneficios-lista {
     display: inline-block;
     vertical-align: top;
     font-size: 20px;
     width: 30%;
-    padding-right: 15%;
+    margin: 0 16% 0 30px;
 }
 
 .itens {
     font-style: italic
 }
 
-.beneficiosImagem {
+.beneficios-imagem {
     width: 50%;
+}
+
+/* produtos e contato */
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+    transition-duration: .2s;
+}
+
+nav a:hover {
+    color: #c4971c;
+    font-size: 24px;
+}
+
+table {
+    margin: 20px 0 40px;
+    width: 52.5%;
+    text-align: center;
+}
+
+thead {
+    background-color: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: linear-gradient(to right bottom, #c4971c 50%, #FFFFFF 50%);
+    background-size: 200% 200%;
+    background-position:right bottom;
+    margin-left:10px;
+    transition:all 0.5s linear;
+}
+
+.produtos li:hover {
+    border-color: #4d4632;
+
+    background-position:left top;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li:active h2 {
+    font-size: 30px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+fieldset legend {
+    padding: 15px 0 0;
+}
+
+select {
+    padding: 5px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    
+    background-color: #FFA500;
+    color:#FFFFFF;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #d48a00;
 }
