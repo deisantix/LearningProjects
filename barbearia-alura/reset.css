@@ -24,6 +24,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+ol, ul {
+    list-style: none;
+}
 body {
     line-height: 1;
 }
