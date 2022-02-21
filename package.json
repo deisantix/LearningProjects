@@ -1,0 +1,14 @@
+{
+  "name": "conta-bancaria-js",
+  "version": "1.0.0",
+  "description": "Criando classes com JavaScript",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ytalo D.S. Amorim",
+  "license": "ISC",
+  "type": "module"
+}
